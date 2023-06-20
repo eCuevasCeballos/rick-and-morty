@@ -6,13 +6,19 @@ module.exports = {
   theme: {
     extend: {},
     fontFamily:{
-      header : ['Bruno Ace']
+      logo : ['Ubuntu'],
+      name : ['Bruno Ace']
     },
     colors : {
-      'g-blue' : '#11545f',
-      'green' : '#6dddb6',
       'white' : '#fff',
-      'black' : '#000'
+      'black' : '#141414',
+      'gray-nav' : '#282828',
+      'gray-body': '#212121',
+      'gray-text' : '#b3b1b1',
+      'gray-text-soft' : '#fdfdfd',
+      'gray-card' : '#2e2e2e',
+      'blue-rick' : '#9edfd5',
+      'yellow-morty' : '#f7f740'
     }
   },
   plugins: [],
