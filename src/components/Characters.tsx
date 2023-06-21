@@ -102,12 +102,12 @@ const Characters = () => {
       <article className='flex flex-col bg-white w-8/12 rounded-md mt-6 overflow-hidden shadow-lg shadow-black sm:w-2/3'>
         <h2 className=' text-black font-name font-bold px-2 pt-2 mx-auto'>{name}</h2>  
         <img key={id} src={image} alt={name} className='mx-6 my-3 rounded-md shadow-lg shadow-gray-text'/>
-        <p className='ml-6'> Species: {species}</p>
-        <p className='ml-6'> Gender: {gender}</p>
-        <p className='ml-6'> Type: {type}</p>
-        <p className='ml-6'> Status: {status}</p>
-        <p className='ml-6'> Origin: {origin.name}</p>
-        <p className='ml-6 mb-6'> Location: {location.name}</p>
+        <p className='ml-6'><span className='font-bold font-logo'>Species:</span> {species}</p>
+        <p className='ml-6'><span className='font-bold font-logo'>Gender:</span> {gender}</p>
+        <p className='ml-6'><span className='font-bold font-logo'>Type:</span> {type}</p>
+        <p className='ml-6'><span className='font-bold font-logo'>Status:</span> {status}</p>
+        <p className='ml-6'><span className='font-bold font-logo'>Origin:</span> {origin.name}</p>
+        <p className='ml-6 mb-6'><span className='font-bold font-logo'>Location:</span> {location.name}</p>
       </article>
       <button onClick={handleNextCharacter}><HiOutlineArrowSmRight size={30} className='text-white rounded-full bg-gray-card m-2'/></button>
 
